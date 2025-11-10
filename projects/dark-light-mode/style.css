@@ -1,0 +1,29 @@
+#cardelement{
+    background-color: rgb(97, 97, 151);
+    border: 1px solid black;
+    margin: 10px;
+    height: auto;
+}
+
+#cardelement #cardBtn{
+
+    background-color: aqua;
+    margin: 15px;
+    padding: 2px;
+
+}
+
+#cardText{
+    display: flex;
+    margin: 20px;
+}
+
+#togglebtn{
+    margin: 10px;
+    background-color: rgb(222, 18, 127);
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}

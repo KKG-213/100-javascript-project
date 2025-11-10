@@ -1,0 +1,1 @@
+const d=document.getElementById('display');let c='';document.querySelectorAll('button').forEach(b=>b.onclick=()=>{let v=b.textContent;if(v==='C')c='';else if(v==='='){try{c=eval(c).toString()}catch{c='Err'}}else c+=v;d.value=c;});

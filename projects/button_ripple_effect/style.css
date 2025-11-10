@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin: px;
+    background-color: rgb(15, 234, 157);
+}
+
+.buttonEl{
+    background-color: bisque;
+    margin: 50px;
+    padding: 50px;
+}
+
+button{
+
+    margin: 0%;
+    padding: 10px;
+
+    background-color: rgb(240, 139, 7);
+}

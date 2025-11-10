@@ -1,0 +1,1 @@
+const i=document.getElementById('todoInput'),b=document.getElementById('addBtn'),l=document.getElementById('todoList');b.onclick=()=>{if(i.value.trim()){const li=document.createElement('li');li.textContent=i.value;li.onclick=()=>li.remove();l.appendChild(li);i.value='';}};

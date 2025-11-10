@@ -1,0 +1,1 @@
+function updateClock(){document.getElementById('time').textContent=new Date().toLocaleTimeString();}setInterval(updateClock,1000);updateClock();
