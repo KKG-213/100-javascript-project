@@ -121,3 +121,33 @@ pre {
   background-color: #121212;
   color: white;
 }
+
+
+.payment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment span{
+  
+      box-shadow: 0 5px 15px 5px rgba(0,0,0,0.1);
+      width: 120px;
+      height: 25px;
+      border-radius: 15px;
+      text-align: center;
+      margin-left: 20px;
+      padding: auto 0;
+      background-image: linear-gradient(to);
+      
+
+}
+
+.payment p{
+  color :red;
+}
+
+.payment a{
+  text-decoration: none;
+  color: inherit;
+}
